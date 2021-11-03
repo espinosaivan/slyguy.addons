@@ -193,10 +193,8 @@ class BaseLanguage(object):
     DONATE_HEADER               = 32140
     SEASON                      = 32141
 
-    LANGUAGE                    = 304
     RESUME_FROM                 = 12022
     PLAY_FROM_BEGINNING         = 12021
-    AUTO                        = 16316
 
     def __getattribute__(self, name):
         attr = object.__getattribute__(self, name)
